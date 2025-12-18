@@ -15,8 +15,7 @@ Folder: Case_Cubic:                 Correspond to the cases with idealized homog
                main_TimeSeriesI.m: To generate temporal series at the inlet boundary of homogeneous turbulence using 
                                                eigenmodes constructed by GSI.
                f_TRL:                       To construct the 3D covariance matrix of homogeneous turbulence with the TRL model. }
-
-# Call orders of the main programs in Case_Cubic: main_GSI.m --> main_TimeSeries.m
+               Call orders of the main programs in Case_Cubic: main_GSI.m --> main_TimeSeries.m
 
 
 Folder: Case_TBL:                    Correspond to the turbulent boundary layer cases (Sections 4).
@@ -24,8 +23,7 @@ Folder: Case_TBL:                    Correspond to the turbulent boundary layer 
                main_TimeSeriesI.m: Generate temporal series at the inlet boundary of TBL using eigenmodes constructed by
                                                GSI.
                main_TRL.m:             Construct the 3D covariance matrix of TBL with the TRL model.}
-
-# Call orders of the main programs in Case_TBL: main_TRL.m --> main_GSI.m --> main_TimeSeries.m
+               Call orders of the main programs in Case_Cubic: main_GSI.m --> main_TimeSeries.m
 
 
 Folder: Lib_GSI:                        Contains the functions needed by the Cubic and TBL cases.
